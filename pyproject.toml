@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyramid_height_calculator"
+version = "0.1"
+description = "A simple pyramid height calculator"
+authors = [{name = "Hoa Mai"}]
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["src"]
